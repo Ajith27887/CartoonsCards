@@ -1,0 +1,9 @@
+.navbar-brand {
+    color: red !important;
+    font-weight: bolder;
+}
+
+.active {
+    color: blue !important;
+    text-decoration: underline blue !important;
+}

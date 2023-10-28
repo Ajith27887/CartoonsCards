@@ -1,0 +1,12 @@
+.detail_status {
+    background-color: black;
+    color: white;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+
+.colors {
+    color: green;
+    font-weight: bold;
+}

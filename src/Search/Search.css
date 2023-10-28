@@ -1,0 +1,23 @@
+input {
+    width: 20%;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.display_num {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    top: -5px;
+    left: -5px;
+    position: absolute;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    input {
+        width: 50%;
+    }
+}
