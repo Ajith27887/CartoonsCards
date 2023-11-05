@@ -9,16 +9,13 @@ function CardDetail() {
   // Api Name search
   const api = `https://rickandmortyapi.com/api/character/${id}`;
 
-  console.log(id);
   useEffect(() => {
     (async function () {
       let data = await fetch(api).then((res) => res.json());
       setFetchData(data);
-      console.log(data);
     })();
   }, [api]);
   const { gender, name, image, status, location } = FetchData;
-  console.log(id);
 
   return (
     <div>
