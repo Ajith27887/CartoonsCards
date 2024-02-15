@@ -23,3 +23,4 @@ function Pagination({ setNumber, PageNmber, info }) {
 }
 
 export default Pagination;
+
