@@ -18,6 +18,7 @@ function Search({ setSearch }) {
         ></input>
         <div className="position-relative"></div>
       </div>
+      
     </div>
   );
 }
